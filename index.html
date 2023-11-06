@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="icon" type="image/png" href="images/footerlogo.png" />
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <title>NEXTLEVEL</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="header-container">
+          <div class="header-left">
+            <img
+              src="images/headerlogo.png"
+              alt="headerlogo"
+              class="header-logo"
+            />
+            <div class="search-container">
+              <div class="search-input">
+                <input
+                  type="text"
+                  id="search"
+                  placeholder="Search for Brands, Product and Parts... "
+                />
+                <!-- <button id="search-button">Search</button> -->
+                <div class="category-dropdown">
+                  <select id="category">
+                    <option value="all">All Categories</option>
+                    <option value="category1">Category 1</option>
+                    <option value="category2">Category 2</option>
+                    <!-- Add more category options here -->
+                  </select>
+                </div>
+              </div>
+
+              <img class="search" src="images/search.png" alt="search" />
+            </div>
+          </div>
+          <div class="header-right">
+            <img src="images/shopping-cart.svg" alt="shoppingcart" />
+            <img src="images/user.svg" alt="user" />
+          </div>
+        </div>
+        <div class="search-containers-wrapper">
+          <div class="search-containers">
+            <div class="search-input" style="flex: 1">
+              <input
+                type="text"
+                id="search"
+                placeholder="Search for Brands, Product and Parts... "
+              />
+              <!-- <button id="search-button">Search</button> -->
+            </div>
+            <div class="category-dropdown">
+              <select id="category">
+                <option value="all">All Categories</option>
+                <option value="category1">Category 1</option>
+                <option value="category2">Category 2</option>
+                <!-- Add more category options here -->
+              </select>
+            </div>
+            <img class="search" src="images/search.png" alt="search" />
+          </div>
+        </div>
+      </div>
+
+      
+        <div class="nav-wrapper" style="background-color: red;">
+          <ul class="exo-menu">
+            <li>
+              <a  href="#" class="first-margin">interior</a>
+            </li>
+            <li>
+              <a href="#">Exterior</a>
+            </li>
+            <li>
+              <a href="#">performance</a>
+            </li>
+            <li>
+              <a href="#">lighting</a>
+            </li>
+            <li class="mega-drop-down">
+              <a href="#">wheels & tires</a>
+              <div class="animated fadeIn mega-menu">
+                <div class="mega-menu-wrap">
+                  <div class="row">
+                    
+                    <div class="col-md-2">
+                      <h4 class="row mega-title">Standers</h4>
+                      <ul class="stander">
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Computer</a></li>
+                        <li><a href="#">Watch</a></li>
+                        <li><a href="#">laptop</a></li>
+                        <li><a href="#">Camera</a></li>
+                        <li><a href="#">I pad</a></li>
+                        
+                      </ul>
+                    </div>
+                    
+                    <div class="col-md-3">
+                      <h4 class="row mega-title">Icon + Description</h4>
+                      <ul class="icon-des">
+                        <li>
+                          <a href="#"><i class="fa fa-globe"></i>Web</a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa fa-mobile"></i>Mobile</a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            ><i class="fa fa-arrows-h"></i>Responsive</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa fa-desktop"></i>Desktop</a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa fa-paint-brush"></i>UI/UX</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="blog-drop-down">
+              <a href="#">parts</a>
+            </li>
+            <li class="images-drop-down">
+              <a href="#">body parts</a>
+            </li>
+            <li>
+              <a href="#">audio & electronics</a>
+            </li>
+            <li>
+              <a href="#">automotive tools</a>
+            </li>
+            <li>
+              <a href="#">brand</a>
+            </li>
+            <a href="#" class="toggle-menu visible-xs-block"><i class="fa fa-bars"></i></a>
+          </ul>
+        </div>
+        <div style="clear: both;"></div>
+    </header>
+    <main>
+      <section class="header-image-container">
+        <img src="images/header.png" class="image" alt="header-img" />
+        <div class="stroke-text">shop by vehicle</div>
+        <!-- <img src="images/ht.png" class="images" alt="header-img" /> -->
+      </section>
+      <section class="brand">
+        <div style="width: 100%; text-align: center">
+          <div class="heading half-border">OUR BRANDS</div>
+        </div>
+        <div class="brand-slider">
+          <div class="owl-carousel" id="plan-carousel">
+            <div class="item">
+              <img src="images/b1.png" alt="item" />
+            </div>
+            <div class="item">
+              <img src="images/b2.png" alt="item" />
+            </div>
+            <div class="item">
+              <img src="images/b3.png" alt="item" />
+            </div>
+            <div class="item">
+              <img src="images/b4.png" alt="item" />
+            </div>
+            <div class="item">
+              <img src="images/b5.png" alt="item" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="collection">
+        <div class="content">
+          <div class="tab-container">
+            <ul class="tabs">
+              <li class="tab-link" data-tab="tab1">top categories</li>
+              <li class="tab-link" data-tab="tab2">interior</li>
+              <li class="tab-link" data-tab="tab3">exterior</li>
+              <li class="tab-link" data-tab="tab3">Performance</li>
+              <li class="tab-link" data-tab="tab3">Lignting</li>
+            </ul>
+
+            <div class="tab-content" id="tab1">
+              <div class="tab-container">
+                <div class="tab-data">
+                  <img class="image" src="images/t1.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t2.png" alt="Image1" />
+                  <div class="tab-text">Headlights</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t3.png" alt="Image1" />
+                  <div class="tab-text">tires</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t4.png" alt="Image1" />
+                  <div class="tab-text">Suspension</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t5.png" alt="Image1" />
+                  <div class="tab-text">Car covers</div>
+                </div>
+                <div class="tab-data"></div>
+
+                <div class="tab-data">
+                  <img class="image" src="images/t6.png" alt="Image1" />
+                  <div class="tab-text">seat covers</div>
+                </div>
+
+                <div class="tab-data">
+                  <img class="image" src="images/t7.png" alt="Image1" />
+                  <div class="tab-text">floor mats</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t8.png" alt="Image1" />
+                  <div class="tab-text">brakes & rotors</div>
+                </div>
+
+                <div class="tab-data"></div>
+              </div>
+            </div>
+
+            <div class="tab-content" id="tab2">
+              <div class="tab-container">
+                <div class="tab-data">
+                  <img class="image" src="images/t2.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t2.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t2.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t2.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t2.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+
+                <div class="tab-data"></div>
+                <div class="tab-data">
+                  <img class="image" src="images/t2.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t2.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t2.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data"></div>
+              </div>
+            </div>
+
+            <div class="tab-content" id="tab3">
+              <div class="tab-container">
+                <div class="tab-data">
+                  <img class="image" src="images/t3.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t3.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t3.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t3.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t3.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+
+                <div class="tab-data"></div>
+                <div class="tab-data">
+                  <img class="image" src="images/t3.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t3.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t3.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data"></div>
+              </div>
+            </div>
+
+            <div class="tab-content" id="tab4">
+              <div class="tab-container">
+                <div class="tab-data">
+                  <img class="image" src="images/t4.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t4.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t4.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t4.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t4.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+
+                <div class="tab-data"></div>
+                <div class="tab-data">
+                  <img class="image" src="images/t4.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t4.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t4.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data"></div>
+              </div>
+            </div>
+
+            <div class="tab-content" id="tab5">
+              <div class="tab-container">
+                <div class="tab-data">
+                  <img class="image" src="images/t5.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t5.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t5.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t5.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t5.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+
+                <div class="tab-data"></div>
+                <div class="tab-data">
+                  <img class="image" src="images/t5.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t5.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data">
+                  <img class="image" src="images/t5.png" alt="Image1" />
+                  <div class="tab-text">custom wheels</div>
+                </div>
+                <div class="tab-data"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="seller-wrapper">
+            <div style="width: 100%; text-align: center">
+              <div class="heading half-border">Best Seller</div>
+            </div>
+            <div class="seller-container plan-arrow">
+              <div class="owl-carousel" id="seller-carousel">
+                <div class="item">
+                  <div class="seller-card">
+                    <div class="seller-card-data">
+                      <img src="images/s1.png" />
+                      <div>Jeep Gladiator JT Gladiator Rear Bumper</div>
+                      <div class="price-data">$ 600.99</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="seller-card">
+                    <div class="seller-card-data">
+                      <img src="images/s2.png" />
+                      <div>Racequip Gloss Black PRO20 SA2020 Medium</div>
+                      <div class="price-data">$195.75</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="seller-card">
+                    <div class="seller-card-data">
+                      <img src="images/s3.png" />
+                      <div>Wilwood AERO6 Front Big Brake Race Kit</div>
+                      <div class="price-data">$ 2,845.99</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="seller-card">
+                    <div class="seller-card-data">
+                      <img src="images/s4.png" />
+                      <div>LIQUI MOLY 20L Top Tec ATF 1900</div>
+                      <div class="price-data">$ 294.99</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="seller-card">
+                    <div class="seller-card-data">
+                      <img src="images/s5.png" />
+                      <div>Konig Ampliform 18x8.5 5x112 ET43 Gloss Bronze</div>
+                      <div class="price-data">$ 294.99</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="view-all">view all</div>
+          </div>
+
+          <div class="collection-wrapper">
+            <div style="width: 100%; text-align: center">
+              <div class="heading half-border">COllECTION</div>
+            </div>
+            <div class="image-library">
+              <div class="image-container wide1">
+                <img class="image" src="images/c1.png" alt="Image1" />
+                <div class="text-background">Lighting</div>
+              </div>
+              <div class="image-container wide2">
+                <img class="image" src="images/c2.png" alt="Image1" />
+                <div class="text-background">Interior</div>
+              </div>
+              <div class="image-container wide3">
+                <img class="image" src="images/c3.png" alt="Image1" />
+                <div class="text-background">
+                  <p>wheels</p>
+                </div>
+              </div>
+              <div class="image-container tall1">
+                <img class="image" src="images/c4.png" alt="Image1" />
+                <div class="text-background">
+                  <p>exterior</p>
+                </div>
+              </div>
+              <div class="image-container tall2">
+                <img class="image" src="images/c5.png" alt="Image1" />
+                <div class="text-background">audio</div>
+              </div>
+              <div class="image-container tall3">
+                <img class="image" src="images/c6.png" alt="Image1" />
+                <div class="text-background">
+                  <p>performance</p>
+                </div>
+              </div>
+            </div>
+            <div class="view-all">view all</div>
+          </div>
+
+          <div class="component-container">
+            <div class="component-data">
+              <div class="component-left">
+                <div>Big Brands, Big Savings</div>
+                <div class="explore-text">ENGINE COMPONENT</div>
+                <div class="explore-btn">explore</div>
+                <img
+                  src="images/component.png"
+                  alt="component"
+                  class="component-img"
+                />
+              </div>
+              <section class="component-right expo-arrow">
+                <div class="owl-carousel" id="component-carousel">
+                  <div class="item">
+                    <div class="seller-card">
+                      <div class="seller-card-data">
+                        <img src="images/e1.png" />
+                        <div class="price-data">Air Intake</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="seller-card">
+                      <div class="seller-card-data">
+                        <img src="images/e2.png" />
+                        <div class="price-data">Exhaust</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="seller-card">
+                      <div class="seller-card-data">
+                        <img src="images/e3.png" />
+                        <div class="price-data">Brakes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="seller-card">
+                      <div class="seller-card-data">
+                        <img src="images/e4.png" />
+                        <div class="price-data">Suspension</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testnominal test-arrow">
+        <div class="owl-carousel" id="test-carousel">
+          <div class="item">
+            <div class="test-card">
+              <div class="test-card-data">
+                <div>27/7/2021</div>
+                <div>
+                  When I was searching for Car Parts I was having no idea where
+                  to purchase from but as soon as I landed here on Next Level
+                  Performance Site and I ordered my broken Cart part which
+                  arrived the next day. I would highly recommend every one to
+                  buy it from here as it's very cost effective as compare to
+                  other vendor"
+                </div>
+                <div class="star-container">
+                  <img src="images/star.png" alt="star" />
+                  <img src="images/star.png" alt="star" />
+                  <img src="images/star.png" alt="star" />
+                  <img src="images/star.png" alt="star" />
+                  <img src="images/star.png" alt="star" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="test-card">
+              <div class="test-card-data">
+                <div>01/08/2021</div>
+                <div>
+                  Next Level team was very supportive and helpful to determine
+                  that the damaged part that I was looking for could fit my car.
+                  I placed the order right after having chat with them and they
+                  made sure it's arrive on next day. I'm very impressed with
+                  their customer service and support from all the way from
+                  beginning till end
+                </div>
+                <div class="star-container">
+                  <img src="images/star.png" alt="star" />
+                  <img src="images/star.png" alt="star" />
+                  <img src="images/star.png" alt="star" />
+                  <img src="images/star.png" alt="star" />
+                  <img src="images/star.png" alt="star" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-container">
+      <div class="footer-nav">
+        <div class="half-border">My account</div>
+        <div class="half-border">order status</div>
+        <div class="half-border">Search</div>
+        <div class="half-border">Contact us</div>
+        <div class="half-border">About us</div>
+      </div>
+      <div class="footer-data">
+        <img
+          src="images/footerlogo.png"
+          alt="footer-logo"
+          class="footer-logo"
+        />
+        <div class="footer-detail">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut
+          eleifend massa, vel fringilla ipsum.
+        </div>
+        <div class="footer-social">
+          <img src="images/facebook.svg" alt="instagram" />
+          <img src="images/facebook.svg" alt="facebook" />
+        </div>
+        <div class="footer-policy footer-detail">
+          <div>Privacy policy</div>
+          <div>Terms and services</div>
+          <div>Returns</div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>
+          Copyright 2022 Next Level Performance | All Right Reversed <br />
+          Designed by : Thevisiontech
+        </div>
+        <img src="images/pay.png" alt="pay" />
+      </div>
+    </footer>
+  </body>
+</html>
